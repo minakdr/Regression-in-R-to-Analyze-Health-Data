@@ -16,10 +16,10 @@ par(mfrow=c(3,3)) # this was used to show all the plots at the same time
 # let's make box plots for a little visualistation 
 boxplot(charges ~ age, data = rio_csv,xlab = "Age Group", ylab = "Charges",main = "Boxplot of Charges by Age Group")
 boxplot(charges ~ sex ,data = rio_csv,xlab= " sex " ,ylab= "charges ", main =" Boxplot of Charges by sex  ")
-boxplot(charges ~bmi , data=rio_csv , xlab = " Charges ", ylab=" Bmi ", main="Boxplot of charges by BMI")
-boxplot(charges~ children , data=rio_csv, xlab = "charges", ylab = "children", main="Charges by children ")
-boxplot(charges~ smoker , data=rio_csv, xlab = "charges", ylab = "smoker", main="Charges by smoker ")
-boxplot(charges~ region , data=rio_csv, xlab = "charges", ylab = "region", main="Charges by region ")
+boxplot(charges ~bmi , data=rio_csv , xlab = " Bmi ", ylab=" Bmi ", main="Boxplot of charges by BMI")
+boxplot(charges~ children , data=rio_csv, xlab = "children", ylab = "children", main="Boxplot ofCharges by children ")
+boxplot(charges~ smoker , data=rio_csv, xlab = "smoker", ylab = "smoker", main="Boxplot of Charges by smoker ")
+boxplot(charges~ region , data=rio_csv, xlab = "region", ylab = "region", main="Boxplot of Charges by region ")
 
 
 #we apply the linear regression 
